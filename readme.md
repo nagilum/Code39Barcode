@@ -8,12 +8,12 @@ This is an example of a barcode generated with the class. The code behind this b
 
 ## Example:
 
-´´´csharp
-    // Initiate a new instance of the class.
-    var generator = new Code39Barcode();
+```csharp
+// Initiate a new instance of the class.
+var generator = new Code39Barcode();
 
-    // Generate a barcode from the code "28052", with a image that is 40 px height,
-    // has 20 px padding on each side, does not include the code as text below the
-    // image and uses a barcode width of 2 px.
-    var bitmap = generator.Create(40, "28052", 20, false, 2);
-´´´
+// Generate a barcode from the code "28052", with a image that is 40 px height,
+// has 20 px padding on each side, does not include the code as text below the
+// image and uses a barcode width of 2 px.
+var bitmap = generator.Create(40, "28052", 20, false, 2);
+```
